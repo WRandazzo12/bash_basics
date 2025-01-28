@@ -17,7 +17,12 @@ fi
 
 time=$(date +%H)
 if [ "$time" -lt 12 ]; then
+<<<<<<< HEAD
 	echo "It is the morning"
 else 
+=======
+	echo "It is morning"
+else
+>>>>>>> parallel
 	echo "It is not morning"
 fi
